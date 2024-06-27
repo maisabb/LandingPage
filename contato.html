@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <ul id="nav">
+            <li class="nav-itens"><a href="index.html" class="nav-links">Home</a></li>
+            <li class="nav-itens"><a href="#" class="nav-links">Projetos</a></li>
+            <li class="nav-itens"><a href="contato.html" class="nav-links">Contato</a></li>
+        </ul>
+    </header>
+
+    <main id="contato">
+
+        <div id="contato-redes">
+                <h2 class="titulo-contato" id="s1">Acesse minhas redes:</h2>
+                <div id="contato-redes-texto">
+                    <a href="https://github.com/maisabb/praTi.git" target="_blank" class="redes-links">GitHub</a>
+                <a href="https://linkedin.com/in/maisa-barbosa-bispo-13525327b/" target="_blank" class="redes-links">LinkedIn</a>
+                </div>
+                
+        </div>
+
+        
+        <div id="contato-mensagem">
+
+            <h2 class="titulo-contato" id="s2">Ou me envie uma mensagem: </h2>
+            <form id="contato-mensagem-texto" autocomplete="off">
+
+                <div class="caixa"><p><label for="nome" class="login">Nome: </label></p><input type="text" id="nome"></div>
+                    
+                <div class="caixa"><p><label for="email" class="login">Email: </label></p><input type="email" id="email"></div>
+                    
+                <div class="caixa"><p><label for="msg" class="login" id="msgmsg">Mensagem: </label></p><textarea id="msg"></textarea></div>
+                    
+                    <br>
+                <a href="#" onclick="alert('Mensagem enviada')" id="enviar">Enviar</a>
+                    
+
+            </form>
+        </div>
